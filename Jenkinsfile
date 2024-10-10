@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/votre-utilisateur/nom-du-projet.git'
+                git 'https://github.com/Mathissalvador/DevSecOps-TP01.git'
             }
         }
         stage('Build') {
